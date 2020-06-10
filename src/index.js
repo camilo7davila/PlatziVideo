@@ -1,14 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Media from './playlist/components/media'
+import Home from './pages/containers/home'
 
 render(
-  <React.StrictMode>
-    <Media />
-  </React.StrictMode>,
+  <Home />,
   document.getElementById('root')
 );
 
